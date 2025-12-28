@@ -20,19 +20,16 @@ After the squares puzzle, a note arises on the screen explaining that the resear
 To use this experiment, you simply need to send the (theoretical) URL to people you wish to participate.
 By default, participants need to be 18 or over, which is mandated in the demographics page.
 The following information will be automatically collected from each participant during this study, and written to a csv file in this folder called “Results CSV”:
-•	Age, Gender, Education Level
-•	Condition - whether participant was in money condition (“mc”) or the control group (“cc”)
-•	“Time squares”/ dependent variable 1: Time taken to ask for help during puzzle (a measure of self-sufficiency/ willingness to be helped by others)
-•	“Help offered”/dependent variable 2: Number of sheets agreed to be completed by participant (a measure of willingness to help others)
-Adaptation
+
+- Age, Gender, Education Level
+- Condition - whether participant was in money condition (“mc”) or the control group (“cc”)
+- “Time squares”/ dependent variable 1: Time taken to ask for help during puzzle (a measure of self-sufficiency/ willingness to be helped by others)
+- “Help offered”/dependent variable 2: Number of sheets agreed to be completed by participant (a measure of willingness to help others)
+
+**Adaptation**
+
 The programme needs no adaption for basic use. However, some flexibility has been built in case you would like to tailor elements of it:
-•	Increase no of sentences needing completed in the scramble task: Provided in the experiment folder are two text documents called “wordsMoney” and “wordsNeutral”. These documents hold the sentences which are used in the scramble task. To increase number of runs, simply 1) add extra sentences to the documents, in the same jumbled order as the others, and 2) chnage the number of “runs” in the nextScrambClicked() function (line 158) to the number of runs you want.
-
-**4. Program highlights:**
-
-•	Word scramble task functionality 
-•	Drag and drop functionality and object creation
-•	Animation on “Well done” page
+- Increase number of sentences needing completed in the scramble task: Provided in the experiment folder are two text documents called “wordsMoney” and “wordsNeutral”. These documents hold the sentences which are used in the scramble task. To increase number of runs, simply 1) add extra sentences to the documents, in the same jumbled order as the others, and 2) change the number of “runs” in the nextScrambClicked() function (line 158) to the number of runs you want.
 
 **Reference:**
 
